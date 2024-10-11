@@ -1,9 +1,4 @@
-export default function Artical(props) {
-    console.log("The props are", "props")
-
-    const name = props.name
-    const email = props.email
-    const age = props.age
+export default function Artical({ name, email, age }) {
     return (
         <>
             <div style={{

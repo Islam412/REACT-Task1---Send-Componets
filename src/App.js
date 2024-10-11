@@ -18,6 +18,7 @@ function App() {
       <Artical personalName="Mahmoud" email="mahmoud@gmail.com" age="17" content= {fristArtical} />
       <Artical personalName="Sandy" email="sandy@gmail.com" age="17" content= {secondArtical} />
       <Artical personalName="Khoulod" email="khoulod@gmail.com" age="17" content= {thirdArtical} />
+      <Artical personalName="May" email="may@gmail.com" age="17" />
       </header>
     </div>
   );

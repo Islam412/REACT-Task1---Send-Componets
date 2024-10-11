@@ -1,4 +1,4 @@
-export default function Artical({ personalName, email, age, content }) {
+export default function Artical({ personalName, email, age, content='no content' }) {
     return (
         <>
             <div style={{

@@ -7,6 +7,7 @@ function App() {
   const fristArtical = 'I am Islam Hamdy from Cairo'
   const secondArtical = 'I am Sandy from Cairo'
   const thirdArtical = 'I am Khoulod from Cairo'
+  const fourthArtical = 'I am Nely from Cairo'
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +20,20 @@ function App() {
       <Artical personalName="Sandy" email="sandy@gmail.com" age="17" content= {secondArtical} />
       <Artical personalName="Khoulod" email="khoulod@gmail.com" age="17" content= {thirdArtical} />
       <Artical personalName="May" email="may@gmail.com" age="17" />
+
+      <Artical
+        content={ fourthArtical }
+        personalName='Nely'
+        email='nely@gmail.com'
+        age='17'
+      >
+        <div style={{ backgroundColor: 'teal' }}>
+          <h2>Hello Sandy</h2>
+
+          <p style={{ color: 'orange' }}>dthfyjgukiyuojikkjklhbvgcgfhhj</p>
+
+        </div>
+      </Artical>
       </header>
     </div>
   );

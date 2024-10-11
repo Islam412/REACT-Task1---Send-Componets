@@ -1,4 +1,4 @@
-export default function Artical({ name, email, age }) {
+export default function Artical({ personalName, email, age, prograph }) {
     return (
         <>
             <div style={{
@@ -9,14 +9,14 @@ export default function Artical({ name, email, age }) {
                 margin: '10px',
                 padding: '10px'
             }}>
-                <h1>{ name }</h1>
+                <h1>{ personalName }</h1>
                 <pr></pr>
                 <h3>{ email }</h3>
                 <pr></pr>
                 <h3>{ age }</h3>
 
                 <hr></hr>
-                <p>sjhkdzxjnjfkxz,dmkaj ebzsn</p>
+                <p>{ prograph }</p>
             </div>
         </>
     )
